@@ -1,0 +1,181 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.title {
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.checkbox:hover {
+    cursor: pointer;
+    background-color: #F2F6FA;
+}
+
+
+
+.adminText {
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+.adminLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    margin: 20px 0px 12px 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border: none;
+    border-bottom: 3px solid #D21312;
+    height: 10vh;
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 18px;
+    padding-right: 12px;
+    width: 450px;
+    background-color: white;
+}
+
+.input::placeholder {
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.button {
+    background-color: #D21312;
+    border: 0px;
+    height: 50px;
+    width: 450px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.button:hover {
+    background-color: #c41312;
+    cursor: pointer;
+}
+
+.bottomNote {
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.click {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.errorMessage {
+    position: absolute;
+    color: #c41312;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 4px;
+    left: 0px;
+    background-color: white;
+    border: 2px solid #D21312;
+    width: 18px;
+    height: 18px;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #D21312;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    left: 3px;
+    top: -1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #666;
+    font-weight: 300;
+    font-family: 'Heebo', sans-serif;
+    width: 100%;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,81 @@
+.animal {
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  height: 300px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  transition: transform 0.3s ease;
+}
+
+.animal:hover {
+  transform: translateY(-5px);
+}
+
+.picture {
+  position: relative;
+  width: 100%;
+  height: 80%;
+}
+
+.info {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.userLogo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #D21312;
+  color: white;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 700;
+}
+
+.infoRight {
+  flex-grow: 1;
+  margin-top: -10px;
+  padding-left: 2px;
+  padding-bottom: 2px;
+}
+
+.animalInfo {
+  font-family: 'Heebo', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+  margin-bottom: -8px;
+}
+
+.breed {
+  color: #999999;
+  font-family: 'Heebo', sans-serif;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.trainingInfo {
+  font-size: 15px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  color: #999999;
+}
+
+.firstLetter {
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+}

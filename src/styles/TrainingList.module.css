@@ -1,0 +1,49 @@
+.trainingLogListContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.leftArrow {
+    height: 18px;
+    width: 18px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.rightArrow {
+    height: 18px;
+    width: 18px;
+}
+
+.button {
+    border-radius: 10px;
+    height: 18px;
+    width: 18px;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.text {
+    color: black;
+    font-weight: bolder;
+}

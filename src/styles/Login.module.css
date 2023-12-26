@@ -1,0 +1,97 @@
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+}
+
+.title {
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    border: none;
+    border-bottom: 3px solid #D21312;
+    height: 10vh;
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    height: 40px;
+    margin-top: 15px;
+    background-color: white;
+}
+
+.input::placeholder {
+    font-family: 'Heebo', sans-serif;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.button {
+    margin-top: 50px;
+    background-color: #D21312;
+    border: 0px;
+    height: 50px;
+    width: 450px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.button:hover {
+    background-color: #c41312;
+    cursor: pointer;
+}
+
+.bottomNote {
+    color: black;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.click {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.errorMessage {
+    position: absolute;
+    color: #c41312;
+    margin-top: 116px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #666;
+    font-weight: 300;
+    font-family: 'Heebo', sans-serif;
+    width: 100%;
+    margin-bottom: 10px;
+}

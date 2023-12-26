@@ -1,0 +1,101 @@
+.body {
+    display: flex;
+    flex-direction: row;
+    font-family: "Heebo", sans-serif;
+    flex: 1;
+    overflow: hidden;
+}
+
+.right_header_yescreate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 22px;
+    padding-left: 90px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    color: #666;
+    font-size: 22px;
+    border-bottom: 2px solid rgba(0,0,0,.2);
+    margin-bottom: 24px;
+}
+
+.createButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+.createButton:hover {
+    cursor: pointer;
+}
+
+.createButton img {
+    width: 23px;
+    height: 23px;
+}
+
+.createText {
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+}
+
+.right_header_nocreate {
+    display: flex;
+    flex-direction: row;
+    padding-top: 22px;
+    padding-left: 90px;
+    padding-bottom: 5px;
+    color: #666;
+    font-size: 22px;
+    border-bottom: 2px solid rgba(0,0,0,.2);
+    margin-bottom: 24px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.left {
+    flex: 0 0 250px;
+    background-color: white;
+}
+
+.right {
+    padding-top: 68px;
+    flex: 1;
+    overflow-y: auto;
+    background-color: #fff;
+}
+    
+.notLoggedIn {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+.title {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+}
+
+.error {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    color: #c41312;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

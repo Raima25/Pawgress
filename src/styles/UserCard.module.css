@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 85px;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 60px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    font-family: 'Heebo', sans-serif;
+}
+
+.cardContainer:hover {
+    background-color: #F2F6FA;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #D21312;
+    color: white;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+
+.initial {
+    padding: 0px;
+    margin: 0px;
+    font-size: 25px;
+}
+.name {
+    font-size: 21px;
+    color: #260101;
+    font-weight: 700;
+}
+.footer {
+    font-size: 16px;
+    color: #999999;
+}

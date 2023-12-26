@@ -1,0 +1,154 @@
+.sidebarContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 275px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 68px;
+    box-shadow: 0 2px 0 1px rgba(0,0,0,.2);
+}
+
+
+.sidebarButton {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    color: #565252;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.sidebarButton:hover {
+    background-color: #D21312;
+    color: white;
+}
+
+.noAdmin {
+    border-bottom: 2px solid rgba(0,0,0,.2);
+}
+
+.activateSidebarButton {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+    background-color: #D21312;
+    color: white;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.activateSidebarButton p {
+    margin-left: 16px;
+}
+
+.sidebarButton p {
+    margin-left: 16px;
+}
+
+.smallicon {
+    width: 26px;
+    height: 100%;
+}
+
+.adminOnly {
+    margin-top: 20px;
+}
+
+.userFooter {
+    position: fixed;
+    bottom: 14px;
+    width: 222px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px solid rgba(0,0,0,.2);
+}
+
+.nameFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+
+.icon {
+    color: white;
+    margin-top: 3px;
+    margin-right: 14px;
+    font-weight: bold;
+    font-size: 26px;
+    background-color: #D21312;
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial {
+    padding: 0px;
+    margin: 0px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name {
+    font-size: 22px;
+    color: #565252;
+    font-weight: 700;
+    line-height: 25px;
+    font-family: 'Heebo', sans-serif;
+    margin-bottom: 3px;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer {
+    font-size: 16px;
+    color: #565252;
+    font-weight: 400;
+    font-family: 'Heebo', sans-serif;
+}
+
+.adminHeader {
+    color: #565252;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.allContent {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.logoutbutton {
+    width: 24px;
+    height: 24px;
+}

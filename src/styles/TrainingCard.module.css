@@ -1,0 +1,144 @@
+.card {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 60px;
+    margin-right: 60px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 90%;
+    height: auto;
+  }
+  
+  /* .card:hover {
+    transform: translateY(-5px);
+  } */
+
+  .dateBadge {
+    background-color: #070A52D9;
+    height: auto;
+    width: 160px;
+    color: white;
+    padding: 8px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 16px;
+    border-right: 16px solid white;
+  }
+  
+  .date {
+    font-size: 66px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  .monthYear {
+    font-size: 22px;
+    font-family: "Oswald", sans-serif;
+    padding-bottom: 10px;
+    font-weight: 400;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+  }
+
+  .hours {
+    font-size: 20px;
+    font-weight: 500;
+    color: #999999;
+    font-family: 'Heebo', sans-serif;
+  }
+  
+  .details {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 20px;
+    color: #999999;
+    font-family: 'Heebo', sans-serif;
+    margin: 4px 0;
+  }
+  
+  .description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 15px;
+  }
+  
+  .editButton {
+    margin-left: auto;
+    margin-right: 36px;
+  }
+  
+  .editButton button {
+    background-color: #D21312;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+  }
+
+  .editImage {
+    width: 26px;
+    height: 26px;
+  }
+  
+  .editButton button:hover {
+    background-color: #c41312;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 16px; 
+    }
+  
+    .dateBadge {
+      width: 100%;
+      height: auto;
+      border-right: none;
+    }
+  
+    .content {
+      width: 100%;
+    }
+  
+    .editButton {
+      padding-right: 0;
+    }
+  
+    .title, .hours, .details, .description {
+      font-size: smaller;
+    }
+  
+    .editButton button {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .editImage {
+      width: 20px;
+      height: 20px;
+    }
+  }
