@@ -1,5 +1,5 @@
 # Pawgress
-[Pawgress](https://pawgress.vercel.app/) is a comprehensive full-stack application developed as the final project for the Bits of Good Dev Bootcamp. This app is designed as a mini-version of a professional solution for Healing4Heroes, focusing on effective management of animal training sessions. Pawgress showcases a seamless integration of front-end and back-end technologies to create a robust platform for managing users, animals, and their training logs.
+[Pawgress](https://pawgress.vercel.app/) is a comprehensive full-stack application developed as a project for GT Bits of Good. This app is designed as a mini-version of a professional solution for Healing4Heroes, focusing on effective management of animal training sessions. Pawgress showcases a seamless integration of front-end and back-end technologies to create a robust platform for managing users, animals, and their training logs.
 
 ## Key Features
 ### User Experience
